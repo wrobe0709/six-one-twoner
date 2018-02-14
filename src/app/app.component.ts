@@ -46,14 +46,15 @@ export class AppComponent {
     public freq;
     public frequencyData: Array<Object> = [
         {
-            "name": "Leftover",
-            "value": 500
+            name: 'Leftover',
+            value: 500
         },
         {
-            "name": "Frequency",
-            "value": 300
+            name: 'Frequency',
+            value: 300
         }
     ];
+    public gradient: boolean;
     public note: String;
     public notes: string[] = ['A', 'A#', 'B', 'C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#'];
     public showLabels: Boolean = false;
